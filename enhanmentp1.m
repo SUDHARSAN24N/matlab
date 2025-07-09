@@ -1,4 +1,4 @@
-ns=imread('F:\2msc\Downloads\iphone.jpg');
+ns=imread('rose.JPG');
 subplot(2,3,1);
 imshow(ns);
 title('orginal image');
@@ -19,8 +19,8 @@ imshow(ct);
 title('contract image');
 
 
-nt=256;
-n1=(nt-1)-ns;
+L=256;
+nl=(L-1)- ns;
 subplot(2,3,5);
 imshow(nl);
 title('negative');
