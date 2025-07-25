@@ -1,30 +1,6 @@
 p=imread('peppers.png');
-% figure;
-% imshow(p);
-% title('orginal image');
-% 
-% figure;
 gy=rgb2gray(p);
-% imshow(gy);
-% title('graY IMAGE');
-% 
-% figure;
-% imhist(gy);
-% title('histogram image');
-%  
-% figure;
- equalier=histeq(gy);
-% imshow(equalier);
-% title('equalier image');
-% 
-% figure;
-% imhist(equalier);
-% title('histogram eqaulization ');
-
-% figure;
-% subplot(3,2,1);
-% imshow(p);
-% title('orginal image');
+equalier=histeq(gy);
 
 subplot(2,2,1);
 imshow(gy);
