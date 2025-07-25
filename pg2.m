@@ -21,23 +21,23 @@ gy=rgb2gray(p);
 % imhist(equalier);
 % title('histogram eqaulization ');
 
-figure;
-subplot(3,2,1);
-imshow(p);
-title('orginal image');
+% figure;
+% subplot(3,2,1);
+% imshow(p);
+% title('orginal image');
 
-subplot(3,2,3);
+subplot(2,2,1);
 imshow(gy);
 title('graY IMAGE');
 
-subplot(3,2,4);
+subplot(2,2,2);
 imhist(gy);
 title('histogram image');
 
-subplot(3,2,5);
+subplot(2,2,3);
 imshow(equalier);
 title('equalier image');
 
-subplot(3,2,6);
+subplot(2,2,4);
 imhist(equalier);
 title('histogram eqaulization ');
